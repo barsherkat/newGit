@@ -12,8 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        a();
-        Log.e("TAG",String.valueOf( a()));
+       String s= String.valueOf(a());
+        Log.e("TAG",s);
 
     }
 
