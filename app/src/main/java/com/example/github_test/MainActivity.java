@@ -3,6 +3,7 @@ package com.example.github_test;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         a();
+        Log.e("TAG",String.valueOf( a()));
 
     }
 
