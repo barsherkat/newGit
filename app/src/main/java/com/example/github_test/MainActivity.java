@@ -15,10 +15,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void a()
+    public int a()
     {
         int c=3+7;
         c=c-6;
+        return c;
     }
 
 
