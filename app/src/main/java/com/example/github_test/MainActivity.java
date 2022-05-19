@@ -14,9 +14,15 @@ public class MainActivity extends AppCompatActivity {
 
        String s= String.valueOf(a());
         Log.e("TAG",s);
-
+         x()
     }
 
+    public int x()
+    {
+    Log.e("TAG","new");
+    }
+    
+    
     public int a()
     {
         int c=3+7;
