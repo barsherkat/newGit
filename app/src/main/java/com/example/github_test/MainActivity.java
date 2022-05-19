@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         a();
 
     }
@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void a()
     {
         int c=3+7;
+        c=c-6;
     }
 
 
