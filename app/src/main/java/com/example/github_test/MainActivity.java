@@ -14,15 +14,19 @@ public class MainActivity extends AppCompatActivity {
 
        String s= String.valueOf(a());
         Log.e("TAG",s);
-         x()
+         x();
+        sum();
     }
+
 
     public int x()
     {
+        int x=3;
     Log.e("TAG","new");
+    return x;
     }
-    
-    
+
+
     public int a()
     {
         int c=3+7;
@@ -30,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
         return c;
     }
 
+    public void sum()
+    {
+        int e=a()+15;
+
+    }
 
 
 }
