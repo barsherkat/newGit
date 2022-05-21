@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e("TAG",s);
          x();
         sum();
+        //example
     }
 
 
